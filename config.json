@@ -1,0 +1,6 @@
+{
+  "servername" : "localhost",
+  "host" : "127.0.0.1",
+  "userMySql" : "root",
+  "passwordMySql" : "12345678"
+}
