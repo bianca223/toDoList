@@ -1,0 +1,87 @@
+body{
+  background-color: #1d2731;
+  margin: 0;
+  padding: 0;
+}
+.content-box-parent{
+  background-color: #d98310;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.form-group{
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-part{
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+}
+.input-parts-childs{
+  color: aliceblue;
+  justify-content: center;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 70px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+.submit-button{
+  font-size: 20px;
+  background-color: #083c5d;
+  cursor: pointer;
+  height: 50px;
+  color: #fff;
+  border: none;
+  margin: 5px;
+}
+.submit-button:hover{
+  background-color: #86B3D1;
+}
+.table {
+  align-items: center;
+  border-collapse: collapse;
+  margin: 25px;
+  color: #fff;
+  font-size: 15px;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+}
+.table thead tr {
+  background-color: #083c5d;
+  color: #ffffff;
+  text-align: left;
+}
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+.msg-warning{
+  color: #ffffff;
+  font-size: 20px;
+}
+.edit_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  background: #2E8B57;
+  color: white;
+  border-radius: 3px;
+}
+
+.del_btn {
+  text-decoration: none;
+  padding: 2px 5px;
+  color: white;
+  border-radius: 3px;
+  background: #800000;
+}
